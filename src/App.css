@@ -27,7 +27,11 @@
 .App-link {
   color: #61dafb;
 }
-
+a {
+  text-decoration: none;
+  display: block;
+    font-family: 'Varela Round', sans-serif;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
