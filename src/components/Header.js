@@ -9,7 +9,7 @@ function Header() {
     return (
         <Container>
             <a>
-                <img src='/images/logo.svg' alt='' />
+                {/* <img src='/images/logo.svg' alt='' /> */}
             </a>
             <Menu>
                 <a href="#">Model S</a>
@@ -18,11 +18,11 @@ function Header() {
                 <a href="#">Model Y</a>
             </Menu>
             <RightButton>
-                <a href="#">Shop Now</a>
+                {/* <a href="#">Shop Now</a> */}
                 <a href="#">tesla account</a>
                 <CustomMenu onClick={()=>setBurgarStatus(true)}/>
             </RightButton>
-            <BugarNav show={BurgarStatus}>
+            {/* <BugarNav show={BurgarStatus}>
                 <CloseWrapper>
                     <CustomClose onClick={()=>setBurgarStatus(false)}/>
                 </CloseWrapper>
@@ -39,7 +39,7 @@ function Header() {
                 <li><a href="#">Model X</a></li>
                 <li><a href="#">Model Y</a></li>
                 
-            </BugarNav>
+            </BugarNav> */}
         </Container>
     )
 }
@@ -109,7 +109,7 @@ const BugarNav = styled.div`
     display: flex;
     flex-direction: column;
     text-align: start;
-    transform: ${props => props.show ? 'translateX(0)' : 'translate(100%)'};
+    /* transform: ${props => props.show ? 'translateX(0)' : 'translate(100%)'}; */
     transition: transform 0.5s;
         li {
             padding: 15px 0;
